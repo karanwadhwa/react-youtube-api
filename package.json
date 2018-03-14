@@ -1,7 +1,7 @@
 {
   "name": "react-youtube-api",
   "version": "1.0.0",
-  "description": "simple react app using youtube api",
+  "description": "simple youtube search app using react",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karanwadhwa/react-youtube-api.git"
