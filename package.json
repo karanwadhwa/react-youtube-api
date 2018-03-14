@@ -1,7 +1,17 @@
 {
   "name": "react-youtube-api",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "simple react app using youtube api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanwadhwa/react-youtube-api.git"
+  },
+  "author": "Karan Wadhwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karanwadhwa/react-youtube-api/issues"
+  },
+  "homepage": "https://github.com/karanwadhwa/react-youtube-api#readme",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
