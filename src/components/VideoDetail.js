@@ -15,6 +15,7 @@ const VideoDetail = (props) => {
       </div>
       <div className="details">
         <h5>{props.video.snippet.title}</h5>
+        <div>{props.video.snippet.channelTitle}</div>
         <div>{props.video.snippet.description}</div>
       </div>
     </div>
