@@ -4,6 +4,7 @@ import YTSearch from 'youtube-api-search';
 import './App.css';
 import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
+import VideoDetail from './components/VideoDetail';
 
 // intentionally left in
 //#idgaf #yolo
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <SearchBar />
+        <VideoDetail video={this.state.videos[0]} />
         <VideoList videos={this.state.videos} />
       </div>
     );
