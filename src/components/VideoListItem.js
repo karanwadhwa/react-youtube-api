@@ -8,7 +8,7 @@ const VideoListItem = ({video, onVideoSelect}) => {
       <div className='media'>
         <img className="mr-3" width={168} height={94} src={ImgURL} />
         <div className="media-body">
-          <p className="mt-0 mb-1">{Title}</p>
+          <h5 className="mt-0 mb-1">{Title}</h5>
         </div>
       </div>
     </li>
